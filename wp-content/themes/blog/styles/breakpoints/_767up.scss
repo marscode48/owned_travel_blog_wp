@@ -1,0 +1,43 @@
+/******************************************************************
+
+Stylesheet: 767px以上のモニタで適用
+
+******************************************************************/
+
+.pickup {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 150px;
+
+  &__article {
+    width: 32%;
+    margin-bottom: 0;
+  }
+}
+
+.container {
+  flex-direction: row;
+  justify-content: space-between;
+
+  .main {
+    width: 65%;
+  }
+
+  .sidebar {
+    width: 33%;
+    padding: 20px;
+  }
+}
+
+.footer {
+
+  &__flex {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__item {
+    width: 30%;
+    margin-bottom: 0;
+  }
+}
