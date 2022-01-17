@@ -58,6 +58,7 @@ li {
   max-width: $contentMaxWidth;
 }
 .container {
+  padding-top: 140px;
   margin-bottom: 60px;
   display: flex;
   flex-direction: column;
@@ -109,6 +110,7 @@ li {
 
   &__logo {
     padding: 20px 16px;
+    line-height: 1px;
 
     a {
       display: inline-block;

@@ -18,6 +18,7 @@ Stylesheet: 767px以上のモニタで適用
 .container {
   flex-direction: row;
   justify-content: space-between;
+  padding-top: 150px;
 
   .main {
     width: 65%;
