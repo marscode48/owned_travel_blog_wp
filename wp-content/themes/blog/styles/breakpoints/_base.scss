@@ -101,6 +101,22 @@ li {
     }
   }
 }
+.pagination {
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    li {
+      padding: 0 10px;
+
+      & a:hover {
+        opacity: 0.7;
+      }
+    }
+  }
+}
 
 .header {
   width: 100%;
