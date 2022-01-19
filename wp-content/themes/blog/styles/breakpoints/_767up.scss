@@ -26,6 +26,10 @@ Stylesheet: 767px以上のモニタで適用
 
   .main {
     width: 65%;
+
+    &__text {
+      padding: 10px 40px 30px 40px;
+    }
   }
 
   .sidebar {

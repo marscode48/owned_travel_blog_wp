@@ -208,7 +208,7 @@ li {
 }
 
 .main__text {
-  padding: 10px 40px 30px 40px;
+  padding: 10px 0;
   margin: 0;
 }
 
@@ -319,6 +319,26 @@ li {
   margin: 0;
 }
 
+/*-------------------------------------------
+contact form
+-------------------------------------------*/
+input, textarea {
+  width: 100%;
+  border: solid 1px #333333;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"], textarea[type="submit"] {
+  background-color: #333333;
+  color: #FFFFFF;
+  padding: 15px 0;
+}
+
+input[type="submit"]:hover, textarea[type="submit"]:hover {
+  opacity: 0.7;
+}
+
 @media (min-width: 480px) {
   /******************************************************************
 
@@ -369,6 +389,9 @@ Stylesheet: 767px以上のモニタで適用
   }
   .container .main {
     width: 65%;
+  }
+  .container .main__text {
+    padding: 10px 40px 30px 40px;
   }
   .container .sidebar {
     width: 33%;
