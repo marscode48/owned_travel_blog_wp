@@ -9,7 +9,7 @@
         $catname = $cat[0]->cat_name;
         ?>
         <article class="main__article">
-          <h2 class="main__title">
+          <h2 class="main__article-title">
             <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
           </h2>
           <ul class="main__list">

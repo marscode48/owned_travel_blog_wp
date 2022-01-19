@@ -4,7 +4,7 @@
   <main class="main">
     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
       <article class="main__article">
-        <h1 class="main__title">
+        <h1 class="main__article-title">
           <?php the_title(); ?>
         </h1>
         <?php the_post_thumbnail(); ?>

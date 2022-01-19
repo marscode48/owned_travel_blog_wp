@@ -43,7 +43,7 @@ li {
   font-size: 18px;
 }
 
-.font-lg, .main__title {
+.font-lg, .main__article-title {
   font-size: 24px;
 }
 
@@ -188,7 +188,7 @@ li {
   margin-bottom: 80px;
 }
 
-.main__title {
+.main__article-title {
   margin: 10px 0 15px;
 }
 
