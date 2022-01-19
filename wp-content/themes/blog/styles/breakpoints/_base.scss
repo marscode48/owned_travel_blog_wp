@@ -102,7 +102,6 @@ li {
   }
 }
 .pagination {
-
   ul {
     display: flex;
     flex-wrap: wrap;
@@ -117,7 +116,12 @@ li {
     }
   }
 }
-
+.post-link {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
 .header {
   width: 100%;
   position: fixed;
