@@ -31,7 +31,7 @@ li {
   list-style: none;
 }
 
-.font-sm, .readmore, .header__nav ul li, .main__list li, .author__profile, .ranking__text, .archive__list li, .footer {
+.font-sm, .readmore, .header__nav ul li, .main__list li, .author__profile, .archive ul li, .footer {
   font-size: 14px;
 }
 
@@ -218,33 +218,18 @@ li {
   text-align: left;
 }
 
-.ranking {
-  text-align: center;
-  margin-bottom: 60px;
-}
-
-.ranking article {
-  margin-bottom: 30px;
-}
-
-.ranking__text {
-  font-weight: normal;
-  text-align: left;
-  margin: 0;
-}
-
 .archive {
   text-align: center;
   margin-bottom: 60px;
 }
 
-.archive__list {
+.archive ul {
   padding: 0;
   margin: 0;
   border-bottom: 1px solid #777777;
 }
 
-.archive__list li {
+.archive ul li {
   text-align: left;
   padding: 20px;
   border-top: 1px solid #777777;

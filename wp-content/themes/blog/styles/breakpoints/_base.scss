@@ -221,27 +221,11 @@ li {
   }
 }
 
-.ranking {
-  text-align: center;
-  margin-bottom: 60px;
-
-  article {
-    margin-bottom: 30px;
-  }
-
-  &__text {
-    @extend .font-sm;
-    font-weight: normal;
-    text-align: left;
-    margin: 0;
-  }
-}
-
 .archive {
   text-align: center;
   margin-bottom: 60px;
 
-  &__list {
+  & ul {
     padding: 0;
     margin: 0;
     border-bottom: 1px solid #777777;
