@@ -182,11 +182,18 @@ li {
 .main {
   &__article {
     margin-bottom: 80px;
+
+    &-title {
+      margin: 10px 0 15px;
+      @extend .font-lg;
+    }
   }
 
-  &__article-title {
-    margin: 10px 0 15px;
-    @extend .font-lg;
+  &__page-title {
+    border-bottom: solid 1px #777;
+    font-size: 28px;
+    padding-bottom: 10px;
+    margin-bottom: 60px;
   }
 
   &__list {
