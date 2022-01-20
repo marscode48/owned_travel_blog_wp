@@ -236,6 +236,17 @@ li {
   text-align: left;
 }
 
+#searchform {
+  position: relative;
+  margin-bottom: 60px;
+}
+
+#searchform button {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+}
+
 .archive {
   text-align: center;
   margin-bottom: 60px;
