@@ -70,3 +70,12 @@ if (function_exists('register_sidebar')) {
     'after_title' => '</h3>'
   ));
 }
+
+// 検索結果を投稿ページのみ表示
+function search_filter($query) {
+  if ($query -> is_search) {
+    $query -> set('post_type', 'post');
+  }
+  return $query;
+}
+add_filter('pre_get_posts', 'search_filter');
