@@ -1,0 +1,17 @@
+<aside class="sidebar">
+  <section class="author">
+    <img src="<?php echo esc_url(get_theme_file_uri('img/sidebar/author.jpg')); ?>" alt="テキストテキストテキスト" />
+    <h3 class="side-title">Name Name</h3>
+    <p class="author__profile">
+      プロフィールテキストテキストテキストテキストテキストテキストテキスト
+      テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+      テキストテキストテキストテキストテキストテキストテキストテキストテキスト
+    </p>
+  </section>
+
+  <?php get_search_form(); ?>
+
+  <section class="archive">
+    <?php dynamic_sidebar('sidebar'); ?>
+  </section>
+</aside>
